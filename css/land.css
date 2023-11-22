@@ -1,0 +1,21 @@
+
+#logo {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  margin-left: auto;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+
+}
+
+
+
+
+#iceplant {
+  position:relative;
+  width: 10%;
+  z-index: -5;
+  margin-left: 70%;
+}

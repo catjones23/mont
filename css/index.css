@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: 'IM Fell English SC', serif;
+  letter-spacing: 0.2em;
+  line-height: 2em;
+  text-align: center;
+}
+
+header{
+  position:relative;
+  align-content: center;
+  justify-content: center;
+
+}
+
+/*nav bar flex box */
+
+.flex-container-one {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  flex-direction: row-reverse;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.flex-container-one img{
+  width: 40px;
+  height:auto;
+
+}
+
+.flex-container-one img:hover {
+width:45px;
+transform: rotate(10deg);
+transition-duration: 0.5s;
+
+}
+
+.flex-item-left-one:hover {
+  font-size: 35px;
+  transition-duration: 0.5s;
+}
+
+.flex-item-right-one:hover {
+  font-size: 35px;
+  transition-duration: 0.5s;
+}
+
+.flex-item-left-one {
+  background-color: #ffffff;
+  padding: 10px;
+  flex: 50%;
+}
+
+
+.flex-item-right-one {
+  background-color: #ffffff;
+  padding: 10px;
+  flex: 50%;
+}
+
+
+
+/*articles flexbox */
+
+.flex-container-two {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  align-items: baseline;
+  flex-direction: row-reverse;
+  font-size: 20px;
+  text-align: center;
+}
+
+.flex-container-two img {
+  margin-top: 10%;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  border-style: ridge;
+  border-color: #78866B;
+}
+
+.flex-container-two img:hover {
+  width: 201px;
+  height: auto;
+  filter: opacity(60%);
+  overflow: hidden;
+  transition-duration: 0.5s;
+}
+
+.flex-item-left-two {
+  background-color: #ffffff;
+  padding: 10px;
+  flex: 50%;
+}
+
+
+.flex-item-right-two {
+  background-color: #ffffff;
+  padding: 10px;
+  flex: 50%;
+}
+
+
+
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container-one {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .flex-container-two {
+    flex-direction: column;
+  }
+}
+
+footer img {
+  width: 100%;
+  height: auto;
+}

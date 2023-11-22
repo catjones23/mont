@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+header {
+  font-family: 'IM Fell English SC', serif;
+  text-align: center;
+  position:relative;
+  margin-top: 10%;
+
+}
+
+
+
+body {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Georgia, serif;
+  letter-spacing: normal;
+  line-height: 2em;
+  text-align: left;
+}
+
+
+
+/*nav bar flexbox */
+
+.flex-container-one {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  align-items: baseline;
+  flex-direction: row-reverse;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  line-height: 2.5em;
+  text-align: center;
+
+
+}
+
+.flex-container-one img{
+  width: 40px;
+  height:auto;
+
+}
+
+.flex-container-one img:hover {
+width:45px;
+transform: rotate(10deg);
+transition-duration: 0.5s;
+
+}
+
+.flex-item-left-one:hover {
+  font-size: 35px;
+  transition-duration: 0.5s;
+}
+
+.flex-item-right-one:hover {
+  font-size: 35px;
+  transition-duration: 0.5s;
+}
+
+.flex-item-left-one {
+  background-color: #ffffff;
+  padding: 10px;
+  flex: 50%;
+}
+
+
+.flex-item-right-one {
+  background-color: #ffffff;
+  padding: 10px;
+  flex: 50%;
+
+}
+
+#intro {
+  position: relative;
+  width:60%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Georgia, serif;
+  letter-spacing: normal;
+  line-height: 2em;
+  text-align: left;
+}
+
+#demo {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width:35%;
+  height: auto;
+  border-radius: 10px;
+  border-style: ridge;
+  border-color: #78866B;
+
+}
+
+.carousel-inner {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'IM Fell English SC', serif;
+
+}
+
+#quote {
+  position: relative;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+  font-family: 'IM Fell English SC', serif;
+
+}
+
+footer {
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: 'IM Fell English SC', serif;
+  text-align: center;
+}
+
+footer img {
+  width: 100%;
+  height: auto;
+}
